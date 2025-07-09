@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+try{
+var input = window.prompt("Enter value below 10");
+var num = parseInt(input);
+if(num<10){
+document.write("You have entered correct value:"+num);
+}
+if(num>=10){
+throw new Error("Wrong Input")
+}
+
+}
+
+catch(err){
+
+window.alert("Error is "+err.message);
+}
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

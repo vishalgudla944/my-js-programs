@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript">
+
+var person = {name:'vishal',
+              age:20,
+			  study:'BTECH',
+			  getmydetails: function(){
+			  
+			  return "name is "+ this.name + ", age is "+this.age;
+			  
+			  }
+			  
+			  };
+
+document.write(person.name);
+document.write("<br/>");
+
+//also we can acess like below
+
+document.write(person['study'])
+document.write("<br/>");
+
+person['city'] = 'Manuguru';
+document.write(person.city);
+document.write("<br/>");
+
+document.write(person.getmydetails());
+
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+
+</body>
+
+
+
+
+</html>

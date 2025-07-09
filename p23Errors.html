@@ -1,0 +1,24 @@
+<html>
+<head>
+
+<script type="text/javascript">
+try{
+document.write("Before error <br/>");
+window.alerting("hello");
+}
+catch(err){
+
+ window.alert("error is "+ err.message);
+
+}
+finally{
+
+document.write("  After error");
+
+}
+
+</script>
+
+</head>
+<body></body>
+</html>
